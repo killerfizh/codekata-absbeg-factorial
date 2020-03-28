@@ -3,5 +3,5 @@ def Small_num(a,b):
         print(a)
     else:
         print(b)
-p, q = input().split()
+p, q = map(int, input().split())
 Small_num(p,q)
